@@ -154,4 +154,4 @@ async def eightball():
     await bot.say(random.choice(choices))
  
 
-bot.run ("NTIxODkwMTE5MTAwMjY4NTYw.DvC_pw.r7wPcgi4f45V9fRGvSRFQ8w4itA") #your bot
+bot.run(os.environ['BOT_TOKEN'])
